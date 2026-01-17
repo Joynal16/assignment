@@ -1,10 +1,10 @@
 body {
   width: 85%;
   max-width: 1600px;
-  margin: auto;
+  /*margin: 0 auto;*/
 }
 
-* {
+*{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
