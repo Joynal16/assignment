@@ -50,9 +50,15 @@ nav .btn {
   border-radius: 4px;
   border: none;
 }
+nav .btn:hover{
+  border: 2px solid #FFFFFF;
+  border-radius: 4px;
+  background-color: #469165;
+}
+
 
 .hero-banner {
-  background-image: url("../assets/hero-bg.png");
+  background-image: url("./assets/hero-bg.png");
   background-size: cover;
   background-position: center;
   height: 674px;
@@ -79,6 +85,12 @@ nav .btn {
   border-radius: 1000px;
   font-weight: 500;
   font-size: 16px;
+}
+.badge:hover{
+  border: 2px solid #FFFFFF;
+  border-radius: 1000px;
+  background-color: gainsboro;
+
 }
 
 h1 {
@@ -133,6 +145,11 @@ p {
   border: none;
   color: white;
 }
+.btn-1:hover{
+   border: 1px solid #FFFFFF;
+  border-radius: 6px;
+  background-color: green;
+}
 
 .btn-2 {
   width: 198px;
@@ -145,6 +162,11 @@ p {
   line-height: 100%;
   padding: 12px 16px;
   border-radius: 4px;
+}
+.btn-2:hover{
+  border: 2px solid #FFFFFF;
+  border-radius: 4px;
+  background-color: grey;
 }
 
 .container {
@@ -353,6 +375,11 @@ p {
   font-weight: 600;
   border-radius: 4px;
   margin-top: 16px;
+}
+.last-a-1:hover{
+  border: 2px solid #FFFFFF;
+  border-radius: 4px;
+  background-color: #469165;
 }
 .last-a-1 span {
   margin-left: 10px;
